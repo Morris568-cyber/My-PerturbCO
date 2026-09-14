@@ -1,0 +1,16 @@
+Instance,Nodes,Capacity,Vehicles,Objective,DualBound,PrimalBound,Runtime,Status
+instance_100_1.vrp,101,50,11,1322.157679,,1322.157679,60.00,TimeLimit
+instance_100_2.vrp,101,50,10,1274.064633,,1274.064633,60.00,TimeLimit
+instance_100_3.vrp,101,50,10,1239.614371,,1239.614371,60.00,TimeLimit
+instance_100_4.vrp,101,50,11,1289.098777,,1289.098777,60.00,TimeLimit
+instance_100_5.vrp,101,50,10,1269.140053,,1269.140053,60.00,TimeLimit
+instance_20_1.vrp,21,50,3,453.349023,,453.349023,60.00,TimeLimit
+instance_20_2.vrp,21,50,2,455.786062,,455.786062,60.00,TimeLimit
+instance_20_3.vrp,21,50,3,487.153846,,487.153846,60.00,TimeLimit
+instance_20_4.vrp,21,50,2,463.206676,,463.206676,60.00,TimeLimit
+instance_20_5.vrp,21,50,2,388.955903,,388.955903,60.00,TimeLimit
+instance_50_1.vrp,51,50,5,754.074730,,754.074730,60.00,TimeLimit
+instance_50_2.vrp,51,50,5,743.487491,,743.487491,60.00,TimeLimit
+instance_50_3.vrp,51,50,6,826.787552,,826.787552,60.00,TimeLimit
+instance_50_4.vrp,51,50,6,776.660843,,776.660843,60.00,TimeLimit
+instance_50_5.vrp,51,50,6,818.413654,,818.413654,60.00,TimeLimit

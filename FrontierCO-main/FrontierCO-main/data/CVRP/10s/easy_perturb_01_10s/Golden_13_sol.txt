@@ -1,0 +1,68 @@
+NAME : Golden_13_solution
+COMMENT : CVRP solution using HGS - obj: 871.763189121776
+DIMENSION : 253
+CAPACITY : 1000
+DISTANCE : 871.763189121776
+VEHICLES : 26
+ROUTES_SECTION
+1: 1 73 158 159 160 161 162 218 217 216 215 214 213 212 211 157 1
+# Route 1 - Length: 54.71111, Demand: 994
+2: 1 66 104 149 203 202 201 200 148 147 103 102 101 65 1
+# Route 2 - Length: 48.96388, Demand: 971
+3: 1 52 86 128 178 235 236 237 179 129 87 53 1
+# Route 3 - Length: 36.77885, Demand: 936
+4: 1 57 91 133 183 241 240 239 238 180 130 88 54 1
+# Route 4 - Length: 37.91343, Demand: 996
+5: 1 33 97 141 193 252 253 194 142 98 62 34 1
+# Route 5 - Length: 35.45925, Demand: 988
+6: 1 40 71 109 155 209 210 156 110 41 19 1
+# Route 6 - Length: 33.13262, Demand: 956
+7: 1 139 138 190 189 137 136 188 248 249 250 251 191 192 140 1
+# Route 7 - Length: 48.39529, Demand: 990
+8: 1 61 96 95 94 58 59 60 32 1
+# Route 8 - Length: 27.26464, Demand: 992
+9: 1 26 51 83 124 172 173 125 126 84 85 1
+# Route 9 - Length: 37.89886, Demand: 989
+10: 1 47 79 119 167 223 224 225 226 170 122 82 50 1
+# Route 10 - Length: 37.57924, Demand: 996
+11: 1 20 21 44 76 77 45 22 1
+# Route 11 - Length: 25.39539, Demand: 996
+12: 1 123 171 227 228 229 230 231 232 174 175 233 234 176 177 127 1
+# Route 12 - Length: 54.29862, Demand: 987
+13: 1 8 24 25 9 1
+# Route 13 - Length: 13.18133, Demand: 960
+14: 1 29 55 89 131 181 182 132 90 56 1
+# Route 14 - Length: 28.80445, Demand: 936
+15: 1 93 135 185 186 187 247 246 245 244 243 242 184 134 92 1
+# Route 15 - Length: 49.92822, Demand: 998
+16: 1 30 31 12 13 1
+# Route 16 - Length: 15.65531, Demand: 960
+17: 1 16 38 68 106 152 153 107 69 39 1
+# Route 17 - Length: 30.72228, Demand: 936
+18: 1 5 6 7 1
+# Route 18 - Length: 10.20960, Demand: 900
+19: 1 10 27 28 11 1
+# Route 19 - Length: 13.69846, Demand: 960
+20: 1 37 67 105 151 150 204 205 206 207 208 154 108 70 1
+# Route 20 - Length: 42.79842, Demand: 997
+21: 1 42 72 111 112 113 114 115 75 74 43 1
+# Route 21 - Length: 35.93922, Demand: 961
+22: 1 49 81 121 169 168 120 80 48 23 1
+# Route 22 - Length: 29.23581, Demand: 936
+23: 1 46 117 165 164 116 163 219 220 221 222 166 118 78 1
+# Route 23 - Length: 44.31307, Demand: 987
+24: 1 63 99 143 195 196 197 198 199 146 145 144 100 64 1
+# Route 24 - Length: 44.30934, Demand: 938
+25: 1 15 36 35 14 2 1
+# Route 25 - Length: 18.34761, Demand: 916
+26: 1 3 17 18 4 1
+# Route 26 - Length: 13.45325, Demand: 960
+
+STATISTICS_SECTION
+Runtime : 10.0055
+Status : TimeLimit
+Objective : 871.763189121776
+DualBound : N/A
+PrimalBound : 868.3875603673441
+Gap : N/A%
+EOF

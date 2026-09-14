@@ -1,0 +1,28 @@
+NAME : instance_50_2_solution
+COMMENT : CVRP solution using HGS - obj: 796.5283621474479
+DIMENSION : 51
+CAPACITY : 50
+DISTANCE : 796.5283621474479
+VEHICLES : 6
+ROUTES_SECTION
+1: 1 48 37 32 45 42 12 6 2 20 1
+# Route 1 - Length: 119.65649, Demand: 43
+2: 1 28 19 49 21 15 11 47 39 14 1
+# Route 2 - Length: 171.00810, Demand: 50
+3: 1 7 8 36 18 4 5 51 16 41 22 1
+# Route 3 - Length: 144.60184, Demand: 49
+4: 1 3 50 33 24 44 9 29 27 1
+# Route 4 - Length: 146.43818, Demand: 48
+5: 1 31 46 43 17 30 34 26 25 38 23 35 40 1
+# Route 5 - Length: 183.79285, Demand: 49
+6: 1 13 10 1
+# Route 6 - Length: 31.03090, Demand: 17
+
+STATISTICS_SECTION
+Runtime : 30.0007
+Status : TimeLimit
+Objective : 796.5283621474479
+DualBound : N/A
+PrimalBound : 796.5283621474479
+Gap : N/A%
+EOF

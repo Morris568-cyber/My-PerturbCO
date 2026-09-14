@@ -1,0 +1,6 @@
+Instance,Nodes,Capacity,Vehicles,Objective,DualBound,PrimalBound,Runtime,Status
+Antwerp1.vrp,6001,30,344,504065.378940,,504065.378940,17.29,TimeLimit
+Antwerp2.vrp,7001,100,122,324774.912253,,324774.912253,24.40,TimeLimit
+Brussels1.vrp,15001,50,514,542741.727375,,542741.727375,162.68,TimeLimit
+Brussels2.vrp,16001,150,185,383520.435840,,383520.435840,235.92,TimeLimit
+Flanders1.vrp,20001,50,685,7695798.273952,,7695798.273952,287.33,TimeLimit
