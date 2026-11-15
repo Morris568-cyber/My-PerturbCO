@@ -19,7 +19,6 @@ import time
 import csv
 from pathlib import Path
 import re
-import wandb
 
 def read_vrp_file(filename):
     """Read CVRP Problem instance from a .vrp file."""
@@ -238,18 +237,6 @@ def main():
     
     args = parser.parse_args()
 
-    run = wandb.init(
-        project="PerturbCO",
-        name=f"HGS-CVRP-t{int(args.time_limit)}-s{args.seed}",
-        config={
-            "solver": "HGS",
-            "problem": "CVRP",
-            "time_limit": args.time_limit,
-            "threads": args.threads,
-            "seed": args.seed,
-            "batch_size": args.batch_size,
-        },
-    )
     
     
     # Create output directory
@@ -320,17 +307,6 @@ def main():
     
     print(f"Summary of results saved to {summary_file}")
 
-    import pandas as pd
-    df = pd.read_csv(summary_file)
-    df = df.drop_duplicates(subset="Instance", keep="last")
-    wandb.log({
-        "summary/mean_objective": df["Objective"].mean(),
-        "summary/mean_runtime": df["Runtime"].mean(),
-        "summary/total_runtime": df["Runtime"].sum(),
-        "summary/num_instances": len(df),
-    })
-
-    run.finish()
 
 
 def process_instance(args):
@@ -386,16 +362,9 @@ def process_instance(args):
         print(f"  Runtime: {runtime:.2f} seconds")
         print(f"  Solution saved to {os.path.join(output_dir, os.path.splitext(filename)[0] + '_sol.txt')}")
 
-        wandb.log({
-            "instance/objective": obj_val,
-            "instance/runtime": runtime,
-            "instance/vehicles": vehicles_used,
-            "instance/nodes": n,
-        })
     
     except Exception as e:
         print(f"  Error solving instance: {str(e)}")
-        wandb.log({"instance/error": 1})
         # Write error result to summary file
         with open(summary_file, 'a', newline='') as f:
             writer = csv.writer(f)
